@@ -2,7 +2,7 @@ body{
     background: #ddd;
 }
 .profile-area{
-    padding: 80px 0;
+    padding: 30px 0;
 
 }
 .card{
@@ -28,4 +28,36 @@ body{
     border-radius: 50%;
     border: 7px solid #fff;
     margin-top: -80px;
+}
+.main-text{
+    padding: 20px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+.main-text p{
+    font-size: 15px;
+    padding: 0 10px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px 10px;
+    font-size: 30px;
+}
+.socials i{
+    color: blue;
+    padding: 0 10px;
+}
+.card:hover{
+    background-color: yellow;
+    border-color: darkgray;
+    transition: .7s;
+}
+
+.card:hover .img2 img{
+    border-color: darkgray;
+    transition: .7s;
 }
